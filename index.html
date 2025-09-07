@@ -1,0 +1,132 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculer en m² : Simplifiez vos calculs de surface</title>
+    <meta name="description" content="Calculez facilement votre surface calculer en m² avec notre outil idéal pour projets immobiliers, construction et rénovation.">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="modulepreload" href="config.js">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <!-- If you are still experiencing issues with Service Worker registration, ensure your server is not redirecting the service-worker.js file. -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Calculer en m² : Simplifiez vos calculs de surface",
+        "url": "https://calcule-en-m2.ovh/",
+        "description": "Calculez facilement votre surface calculer en m² avec notre outil idéal pour projets immobiliers, construction et rénovation.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://calcule-en-m2.ovh/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <header>
+        <h1>Calculer en m² : Simplifiez vos calculs de surface</h1>
+        <p>En utilisant notre outil, vous obtiendrez des résultats instantanés et précis pour vos projets immobiliers, de construction et de rénovation.</p>
+    </header>
+
+    <main>
+        <section id="calculator">
+            <h2>Calculateur de Mètres Carrés (m²)</h2>
+            <div class="input-group">
+                <label for="shape">Forme:</label>
+                <select id="shape">
+                    <option value="rectangle">Rectangle/Carré</option>
+                    <option value="circle">Cercle</option>
+                    <option value="triangle">Triangle</option>
+                </select>
+            </div>
+
+            <div id="rectangle-inputs" class="shape-inputs">
+                <div class="input-group">
+                    <label for="rectangle-width">Largeur (m):</label>
+                    <input type="number" id="rectangle-width" name="rectangle-width" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label for="rectangle-length">Longueur (m):</label>
+                    <input type="number" id="rectangle-length" name="rectangle-length" step="0.01">
+                </div>
+            </div>
+
+            <div id="circle-inputs" class="shape-inputs" style="display: none;">
+                <div class="input-group">
+                    <label for="circle-radius">Rayon (m):</label>
+                    <input type="number" id="circle-radius" name="circle-radius" step="0.01">
+                </div>
+            </div>
+
+            <div id="triangle-inputs" class="shape-inputs" style="display: none;">
+                <div class="input-group">
+                    <label for="triangle-base">Base (m):</label>
+                    <input type="number" id="triangle-base" name="triangle-base" step="0.01">
+                </div>
+                <div class="input-group">
+                    <label for="triangle-height">Hauteur (m):</label>
+                    <input type="number" id="triangle-height" name="triangle-height" step="0.01">
+                </div>
+            </div>
+
+            <button id="calculate-button">Calculer</button>
+
+            <div id="result" style="display: none;">
+                <h3>Résultat:</h3>
+                <p id="area-result"></p>
+            </div>
+        </section>
+
+        <section id="seo-content">
+            <h2>Pourquoi utiliser notre calculateur de mètres carrés ?</h2>
+            <p>La calculatrice de mètres carrés (m²) est l'un des meilleurs outils pour les projets immobiliers, de construction ou de rénovation. Grâce à notre calculatrice, vous pouvez déterminer rapidement et avec précision la surface de vos pièces, terrains, appartements, maisons, etc.</p>
+
+            <h3>Avantages de notre calculateur :</h3>
+            <ul>
+                <li>Calcul en m² rapide et précis.</li>
+                <li>Prend en charge différentes formes géométriques (rectangle, cercle, triangle).</li>
+                <li>L'un des meilleurs pour les professionnels de l'immobilier, les architectes, les décorateurs d'intérieur et les particuliers.</li>
+                <li>Facile à utiliser et optimisé pour une utilisation sur tous les appareils (ordinateurs, tablettes, smartphones).</li>
+            </ul>
+
+            <h3>Comment utiliser notre calculateur :</h3>
+            <ol>
+                <li> Sélectionnez la forme géométrique de votre surface.</li>
+                <li> Saisissez les dimensions requises (largeur, longueur, rayon, base, hauteur)</li>
+                <li> Cliquez sur le bouton « Calculer »</li>
+                <li> Obtenez instantanément et avec précision le résultat en mètres carrés (m²).</li>
+            </ol>
+
+            <p>Si vous êtes un professionnel, vous pouvez utiliser notre calculateur qui facilite le calcul en m² et vous fait gagner un temps précieux.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Calcul en m² - Tous droits réservés.</p>
+  <a href="https://whatistodaydate.com/" style="color: white;">Today Date</a> -
+  <a href="https://qdiaeshoy.com/" style="color: white;">Qué día es hoy</a> -
+  <a href="https://calculer-m2.ovh/" style="color: white;">Calculer m2</a> -
+  <a href="https://calculadorasonline.net/" style="color: white;">Calculadoras Online</a> -
+  <a href="https://calcul-au-m2.ovh/" style="color: white;">Calculer une Surface</a> -
+  <a href="https://calcule-en-m2.ovh/" style="color: white;">Calcule en m2</a> -
+  <a href="https://calculer-le-m2.ovh/" style="color: white;">Calculer le m2</a> -
+  <a href="https://calculatrice.ovh/" style="color: white;">Calculatrice</a> -
+        <a href="privacy.html">Politique de Confidentialité</a>
+    </footer>
+</body>
+
+</html>

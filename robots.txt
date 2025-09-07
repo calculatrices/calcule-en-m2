@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://calcule-en-m2.ovh/sitemap.xml
